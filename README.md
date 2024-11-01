@@ -9,6 +9,11 @@ for higher fidelity astrodynamic simulation. Python serves as a great tool to qu
 ideas and do low fidelity/computationally inexpensive simulation. This repo is meant to serve
 as a starting point and reference for creating your own astrodynamics programs.
 
+## Contribution
+
+If you notice any errors, typos, or would like to add programs feel free to 
+create a pull request.
+
 ## Author
 
 - **Ryan Gast**
