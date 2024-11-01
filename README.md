@@ -22,3 +22,7 @@ create a pull request.
 ## License
 
 This repo is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## References
+
+- Curtis, H., "Orbital Mechanics for Engineering Students," (2013)
