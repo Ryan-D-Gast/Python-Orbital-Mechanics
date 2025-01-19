@@ -1,9 +1,8 @@
-# Python Astrodynamics
+# Python Orbital Mechanics
 
 ## Summary
 
-This repository contains basic astrodynamic programs implemented in Python for educational purposes. 
-Most of the programs are derived from Orbital Mechanics for Engineering Students by Howard Curtis (see [References](#references) for more details).
+Contains python implementations of Appendix D in Orbital Mechanics for Engineering Students by Howard Curtis (see [References](#references) for more details).
 
 ## Contribution
 
