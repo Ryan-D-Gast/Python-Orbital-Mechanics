@@ -9,7 +9,6 @@ Contact: ryan.d.gast@gmail.com
 
 import numpy as np
 from dataclasses import dataclass
-from typing import Dict, Optional, Tuple
 from rva_relative import rva_relative
 
 @dataclass
