@@ -80,6 +80,9 @@ def coe_from_sv(R, V, mu):
             TA = np.arccos(np.dot(N, R) / n / r)
         else:
             TA = 2 * np.pi - np.arccos(np.dot(N, R) / n / r)
+    # If the true anomaly is NaN, set it to 0
+    if np.isnan(TA):
+        TA = 0
     
     # Calculate the semi-major axis
     a = h**2 / mu / (1 - e**2)
@@ -94,9 +97,6 @@ if __name__ == '__main__':
     r = np.array([-6045, -3490, 2500])
     v = np.array([-3.457, 6.618, 2.533])
     result = coe_from_sv(r, v, mu)
-    # Values in pure from
-    print(coe_from_sv(r, v, mu))
-
 
     # Results similar to fprintf statements
     print(f"\nAngular momentum (km^2/s) = {result[0]}")
