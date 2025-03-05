@@ -38,9 +38,7 @@ def two_impulsive_rendezvous(rA, vA, rB, vB, tf, mu):
         Time of flight to rendezvous (seconds)
     mu : float
         Gravitational parameter (km^3/s^2)
-    return_stm : bool, optional
-        Whether to return state transition matrices (default: False)
-    
+
     Returns:
     --------
     RendezvousResult
